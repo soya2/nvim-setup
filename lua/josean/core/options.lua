@@ -29,7 +29,7 @@ opt.splitright = true
 opt.splitbelow = true
 
 opt.fileencodings = "utf-8,gb2312,gbk,gb18030"
-opt.termencoding = "utf-8"
+-- opt.termencoding = "utf-8"
 opt.fileformats = "unix"
 opt.encoding = "utf-8"
 

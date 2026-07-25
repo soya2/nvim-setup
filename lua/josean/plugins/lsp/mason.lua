@@ -20,23 +20,13 @@ return {
     })
 
     mason_lspconfig.setup({
-      ensure_installed = {
-        "tsserver",
-        "html",
-        "cssls",
-        "lua_ls",
-        "emmet_ls",
-        "pyright",
-      },
+      automatic_installation = true,
     })
 
     mason_tool_installer.setup({
       ensure_installed = {
         "prettier",
         "stylua",
-        -- "isort",
-        -- "black",
-        -- "pylint",
         "eslint_d",
       },
     })
