@@ -54,3 +54,5 @@ keymap.set("n", "<leader>x", function()
 end, { desc = "Close buffer (skip NvimTree)" })
 
 keymap.set("n", "<leader>f", vim.lsp.buf.format, { desc = "Format file via LSP" })
+
+keymap.set("n", "<leader>fo", "<cmd>Telescope lsp_document_symbols<CR>", { desc = "Document symbols" })

@@ -25,6 +25,7 @@
 | `mason.nvim` | LSP/Linter/Formatter 安装管理器 |
 | `lazy.nvim` | 插件管理器 |
 | `lazygit.nvim` | Git 可视化操作（lazygit） |
+| `git-blame.nvim` | 行内 Git blame 显示 |
 
 ### 自动依赖（6 个）
 
@@ -47,6 +48,7 @@
 |--------|------|
 | `<leader>cs` | 清除搜索高亮 |
 | `<leader>f` | 通过 LSP 格式化文件 |
+| `<leader>fo` | 列出文件符号（函数/类/组件） |
 | `<leader>x` | 关闭当前 buffer（跳过 NvimTree） |
 
 ### Buffer 切换
@@ -113,7 +115,7 @@
 | `<leader>fs` | 全文搜索字符串 |
 | `<leader>fc` | 搜索光标下单词 |
 
-### Git（gitsigns）
+### Git
 
 | 快捷键 | 功能 |
 |--------|------|
@@ -121,6 +123,7 @@
 | `<leader>hR` | 重置整个文件 |
 | `<leader>hp` | 预览当前修改块 |
 | `<leader>gg` | 打开 lazygit |
+| `<leader>gb` | 切换 Git blame 显示 |
 
 ### 代码检查（nvim-lint）
 
